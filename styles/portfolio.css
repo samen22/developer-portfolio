@@ -9,9 +9,9 @@ body {
 }
 
 .btn {
-    width: 150px;
+   /* width: 150px;*/
     padding: 15px 35px;
-    height: 64px;
+    /*height: 64px;*/
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -27,6 +27,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -49,4 +50,19 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles*/
+
+.header{
+    background-color: #FFF8F3;
+    
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
