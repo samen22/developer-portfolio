@@ -28,7 +28,7 @@ body {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
-   
+
 }
 
 .section-description {
@@ -82,6 +82,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .banner .profile-pic {
@@ -111,9 +112,13 @@ nav a {
 }
 
 /* main section styles*/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
 }
 
 /* about section styles*/
@@ -122,14 +127,50 @@ main{
     background-color: #eeb891ab;
     margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#what-i-do-description{
+
+/* what i do type styles */
+
+#what-i-do-description {
     padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+}
+
+/* Resume styles start from here  */
+
+.resume-column-title {
+    /* display: flex;
+    justify-content: space-around; */
+    /* align-items: center; */
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
